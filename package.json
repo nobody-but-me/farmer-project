@@ -1,0 +1,21 @@
+{
+    "name": "farmer",
+    "version": "0.0.1",
+    "description": "A cute and tiny farming game",
+    "main": "main.js",
+    "scripts": {
+        "build": "./node_modules/.bin/tsc",
+	"execute": "electron dist/app.js --no-sandbox",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Daniel Nunes T.",
+    "license": "MIT",
+    "devDependencies": {
+        "@types/electron": "^1.6.12",
+        "typescript": "^5.8.3"
+    },
+    "directories": {
+	"buildResources": "build",
+	"app": "build"
+    }
+}
